@@ -1,7 +1,7 @@
 {
-  "name": "react-router-ru-tutorial",
+  "name": "vending-machine",
   "version": "1.0.0",
-  "description": "React-router RU tutorial",
+  "description": "Vending Machine",
   "main": "index.js",
   "scripts": {
     "start": "node bin/server.js"
