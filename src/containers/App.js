@@ -9,6 +9,7 @@ export default class App extends React.Component {
         <h1>Vending Machine</h1>
         <ul>
           <li><Link to='/startPage'>Please click to buy</Link></li>
+          <li><Link to='/'>Home</Link></li>
         </ul>
         {this.props.children}
       </div>
