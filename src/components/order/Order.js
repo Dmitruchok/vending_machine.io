@@ -17,7 +17,7 @@ export default class OrderBlock extends React.Component {
         <h3 key={index}>{item.name}</h3>
       )
     })
-    console.log(data);
+    // console.log(data);
     return(
       <div>
         {tmpl}

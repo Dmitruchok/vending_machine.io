@@ -55,6 +55,7 @@ export default class GoodsListContainer extends React.Component {
 
   render () {
       return (
-        (<GoodsList goodsBox={this.goods} />)
-  }
+         <GoodsList list={this.state.goods} />
+       )
+     }
 }
