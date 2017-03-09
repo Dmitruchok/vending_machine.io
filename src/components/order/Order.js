@@ -1,23 +1,15 @@
 import React from 'react'
 
-export default class OrderBlock extends React.Component {
-
-  static propTypes = {
-    orderList: React.PropTypes.array.isRequired
-  };
-
-  static defaultProps = {
-    orderList: []
-  };
+export default class Order extends React.Component {
 
   render() {
-    let data = this.props.orderList;
-    let tmpl = data.map((item, index) => {
+    let orderData = this.props.order;
+    // console.log(orderData);
+    let tmpl = orderData.map((item, index) => {
       return(
         <h3 key={index}>{item.name}</h3>
       )
     })
-    console.log(data);
     return(
       <div>
         {tmpl}

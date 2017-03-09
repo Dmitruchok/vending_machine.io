@@ -15,5 +15,5 @@ render(
         <Route path='/startPage' component={startPage} />
     </Route>
   </Router>,
-  document.getElementById('root')
+  root
 )
