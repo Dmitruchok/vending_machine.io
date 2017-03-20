@@ -50,10 +50,12 @@ export default class GoodsList extends React.Component {
   dblClickGood = (e) => {
     e.preventDefault();
     const goodsName = e.target.innerHTML;
+    // const goodsPrice = e.target;
+    // console.log(goodsPrice);
     let obj = {name: goodsName};
     this.newOrderList.push(obj);
     this.setState({orderList: this.newOrderList});
-    console.log(this.state.orderList);
+    // console.log(this.state.orderList);
   }
 
   render () {
