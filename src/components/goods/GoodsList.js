@@ -34,7 +34,7 @@ export default class GoodsList extends React.Component {
           }
         ];
 
-        this.a = [];
+        this.newOrderList = [];
       }
 
   addKilogramGood = (e) => {
@@ -51,8 +51,8 @@ export default class GoodsList extends React.Component {
     e.preventDefault();
     const goodsName = e.target.innerHTML;
     let obj = {name: goodsName};
-    this.a.push(obj);
-    this.setState({orderList: this.a});
+    this.newOrderList.push(obj);
+    this.setState({orderList: this.newOrderList});
     console.log(this.state.orderList);
   }
 

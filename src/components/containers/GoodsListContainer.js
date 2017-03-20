@@ -14,7 +14,7 @@ export default class GoodsListContainer extends React.Component {
                  <span>-{item.price}</span>
                  <p onClick={data.addKilogramGood} className='plus-kg'>+</p>
                  <p onClick={data.minusKilogramGood} className='minus-kg'>-</p>
-                 <input type='text' value={data.state.counterKilogram}/>
+                 <input type='text' value={data.state.counterKilogram < 0 ? 0: data.state.counterKilogram }/>
                </div>
              )
            })
