@@ -2,6 +2,7 @@ const path = require('path');
 const autoprefixer = require('autoprefixer');
 const postcssImport = require('postcss-import');
 const merge = require('webpack-merge');
+const objectAssign = require('object-assign');
 
 const development = require('./dev.config.js');
 const production = require('./prod.config.js');

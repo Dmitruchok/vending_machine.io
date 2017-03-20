@@ -18,9 +18,6 @@ export default class Order extends React.Component {
       <div>
         {
           data.map((item, index) => {
-            let set = new Set();
-            set.add(item);
-            console.log(set);
             return(
               <h3 key={index}>{item.name}</h3>
             )
