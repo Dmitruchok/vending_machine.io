@@ -51,8 +51,11 @@ export default class GoodsList extends React.Component {
     e.preventDefault();
     const goodsName = e.target.innerHTML;
     let obj = {name: goodsName};
+    let j = {id: 5};
     this.newOrderList.push(obj);
     this.setState({orderList: this.newOrderList});
+    let newObject = Object.assing(obj, j);
+    console.log(newObject);
     // console.log(this.state.orderList);
     // let a = this.newOrderList.map((item) => {
     //   return (

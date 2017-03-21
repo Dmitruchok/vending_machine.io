@@ -2,13 +2,13 @@ import React from 'react'
 
 export default class Order extends React.Component {
 
-  // static propTypes = {
-  //   order: React.PropTypes.array.isRequired
-  // };
-  //
-  // static defaultProps = {
-  //   order: []
-  // };
+  static propTypes = {
+    buyGoods: React.PropTypes.array.isRequired
+  };
+
+  static defaultProps = {
+    buyGoods: []
+  };
 
 
   render() {
