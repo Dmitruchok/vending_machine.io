@@ -56,7 +56,7 @@ export default class GoodsList extends React.Component {
     this.setState({orderList: this.newOrderList});
     let newObject = Object.assing(obj, j);
     console.log(newObject);
-    // console.log(this.state.orderList);
+    console.log(this.state.orderList);
     // let a = this.newOrderList.map((item) => {
     //   return (
     //     Object.assing(item, this.goods.forEach((item) => {return(item)}))
